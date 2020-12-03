@@ -39,8 +39,6 @@ void Sol(int n)
         {
             movement++;
             direction='D';
-            if(movement==n)
-                movement--;
             for(int i=0;i<movement;i++)
             {
                 cout<<Mat[x][++y]<<" ";
